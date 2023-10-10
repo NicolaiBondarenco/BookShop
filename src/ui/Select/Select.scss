@@ -1,0 +1,13 @@
+.multiplySort {
+  margin-right: 10px;
+  label {
+    color: aliceblue;
+  }
+}
+
+@media (max-width: 450px) {
+  .multiplySort {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,42 @@
+/* Header */
+.header {
+  padding: 20px;
+  height: 300px;
+  background: linear-gradient(
+    90deg,
+    rgba(88, 77, 48, 0.6896008403361344) 40%,
+    rgba(112, 115, 116, 1) 61%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Header Title */
+.header h1 {
+  font-size: 40px;
+  text-align: center;
+  color: aliceblue;
+}
+
+/* Header Button */
+.header__btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border-radius: 5px;
+  border: 0;
+}
+
+/* Header Inner Container */
+.header__inner {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 450px) {
+  .header__inner {
+    display: block;
+  }
+}

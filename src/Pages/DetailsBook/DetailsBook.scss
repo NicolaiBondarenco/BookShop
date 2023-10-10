@@ -1,0 +1,94 @@
+/* Default styles for .detailsBook__wrapper */
+.detailsBook__wrapper {
+  display: flex;
+}
+
+/* Styles for .detailsBook__img */
+.detailsBook__img {
+  max-height: 500px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+/* Styles for .detailsBook__info */
+.detailsBook__info {
+  width: 60%;
+  padding: 25px;
+}
+
+.detailsBook__info-category {
+  margin-bottom: 20px;
+}
+
+.detailsBook__info-title {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.detailsBook__info-author {
+  margin-bottom: 20px;
+}
+
+/* Styles for .detailsBook__back */
+.detailsBook__back {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styles for .detailsBook__back-btn */
+.detailsBook__back-btn {
+  border-radius: 10px;
+  color: azure;
+  background-color: #2a2a2a;
+  padding: 10px 50px;
+  box-shadow: 5px 3px 18px 4px rgba(34, 60, 80, 0.2);
+  cursor: pointer;
+}
+
+/* Media query for screens with a max width of 640px */
+@media (max-width: 640px) {
+  /* Change .detailsBook__wrapper styles for small screens */
+  .detailsBook__wrapper {
+    display: block;
+  }
+
+  /* Change .detailsBook__img styles for small screens */
+  .detailsBook__img {
+    width: 100%;
+    padding: 0;
+    margin: 20px 0;
+  }
+
+  /* Change .detailsBook__img img styles for small screens */
+  .detailsBook__img img {
+    height: 300px;
+    max-width: 300px;
+  }
+
+  /* Change .detailsBook__info styles for small screens */
+  .detailsBook__info {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  /* Change .detailsBook__info-category and .detailsBook__info-title styles for small screens */
+  .detailsBook__info-category,
+  .detailsBook__info-title {
+    margin-bottom: 20px;
+  }
+
+  /* Change .detailsBook__info-title styles for small screens */
+  .detailsBook__info-title {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  /* Change .detailsBook__info-author styles for small screens */
+  .detailsBook__info-author {
+    margin-bottom: 20px;
+  }
+}
