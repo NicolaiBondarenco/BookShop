@@ -50,7 +50,7 @@ export const ItemList: React.FC = () => {
       searchIndex,
     }
     dispatch(fetchBooks(newObjForSearch))
-  }, [searchBooks, sort, dispatch, searchIndex])
+  }, [searchBooks, sort, dispatch])
 
   if (error) return <Error />
   if (status === 'loading' && allBooks?.length === 0) return <Loader />

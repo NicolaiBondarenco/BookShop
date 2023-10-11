@@ -29,8 +29,8 @@ export const Header: React.FC = () => {
       <h1>Search for books</h1>
       <Search onClick={handleServerBook} />
       <div className="header__inner">
-        <div>
-          <label>Sort</label>
+        <div className="header__inner-box">
+          <label className="header__inner-title">Categories: </label>
           <Select
             data={categoryArr}
             title={'Categories'}
@@ -38,8 +38,8 @@ export const Header: React.FC = () => {
             onChangeValue={onHandleCategory}
           />
         </div>
-        <div>
-          <label>Filter</label>
+        <div className="header__inner-box">
+          <label className="header__inner-title">Sorting by: </label>
           <Select
             data={sortArr}
             title={'Sorting by'}

@@ -33,6 +33,12 @@
 .header__inner {
   display: flex;
   justify-content: center;
+  &-box {
+    display: flex;
+  }
+  &-title {
+    color: #fff;
+  }
 }
 
 @media (max-width: 450px) {
